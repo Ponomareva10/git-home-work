@@ -1,0 +1,29 @@
+:root {
+    --font-family-bold: 'Josefin Sans', sans-serif;
+    --font-family-text: 'Mulish', sans-serif;
+    --font-weight-bold: 700;
+    --font-weight-text: 400;
+    --font-size-text: 18px;
+    --color-text: #000000;
+    --color-text-hover: #3D8B74;
+    --color-text-nav: #818181;
+    --color-bg: #E5E5E5;
+    --color-bg-form: #F9F9F9;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body, h1, h2, div, p, li, ul, ol, menu{
+    margin: 0;
+    padding: 0;
+}
+
+li, ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

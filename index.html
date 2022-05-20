@@ -5,11 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="conteiner">
-        <div class="cont"></div>
-    </div>
+    <header class="header">
+      <div class="header__name">Natalie Laursen</div>
+      <nav class="header__items">
+        <ul>
+          <li class="header__item">Home</li>
+          <li class="header__item">About</li>
+          <li class="header__item">Marathone</li>
+          <li class="header__item">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__content content">
+        <article class="content__article">
+          <h2 class="content__head">the health benefits of bananas</h2>
+          <datalist class="content__time">Last update at 01-07-2020 12:32PM</datalist>
+          <div class="content__main">
+            <img class="content__img" src="./assets/banana.png" alt="banana">
+            <p class="content__text content__text-first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Do eiusmod tempo.</p>
+            <p class="content__text content__text-second">Incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p class="content__text content__text-third">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p class="content__text content__text-fourth">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p class="content__text content__text-fifth">Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          </div>
+        </article>
+        <form class="content__comment" action="/" method="GET">
+          <h2 class="content__comm">leave a comment</h2>
+          <input placeholder="Your name" class="content__name" type="text">
+          <input placeholder="Your email" class="content__email" type="email">
+          <textarea class="content__message">You seemed to read my mind. However, in the second paragraph I do not agree with the last sentence."</textarea>
+          <button class="content__btn">send</button>
+        </form>
+      </section>
+      <aside class="main__aside aside">
+        <section class="aside__top">categories
+          <menu class="aside__top-items">
+            <li class="aside__top-item">All (106)</li>
+            <li class="aside__top-item">Receipts (32)</li>
+            <li class="aside__top-item">Travelings (4)</li>
+            <li class="aside__top-item">Health (14)</li>
+            <li class="aside__top-item">Yoga (5)</li>
+          </menu>
+        </section>
+        <section class="aside__center">folow me in instagram</section>
+        <section class="aside__bottom">
+          <img class="image" src="./assets/Rectangle40.png" alt="image">
+          <img class="image" src="./assets/Rectangle41.png" alt="image">
+          <img class="image" src="./assets/Rectangle42.png" alt="image">
+          <img class="image" src="./assets/Rectangle43.png" alt="image">
+        </section>
+      </aside>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__avatar"></div>
+        <h2 class="footer__head">Natalie Laursen</h2>
+        <nav class="footer__nav">
+          <a class="footer-nav-item" href="/">
+            <img src="./assets/f.png" alt="logo fasebook">
+          </a>
+          <a class="footer-nav-item" href="/">
+            <img src="./assets/insta.svg" alt="logo instagram">
+          </a>
+          <a class="footer-nav-item" href="/">
+            <img src="./assets/youtube.svg" alt="logo youtube">
+          </a>
+          <a class="footer-nav-item" href="/">
+            <img src="./assets/twiter.svg" alt="logo twiter">
+          </a>
+          <a class="footer-nav-item" href="/">
+            <img src="./assets/p.svg" alt="logo png">
+          </a>
+        </nav>
+      </div>
+      <div class="footer__bottom">Antonova Polina 2020. All rights reserved. </div>
+    </footer>
 </body>
 </html>
